@@ -1,0 +1,93 @@
+\documentclass[9pt,a4paper]{extarticle}
+\usepackage[a4paper,margin=0.6in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\usepackage{parskip}
+\usepackage{fontawesome}
+
+\titleformat{\section}{\bfseries\large}{}{0em}{}
+\titlespacing{\section}{0pt}{0.6em}{0.2em}
+\setlist[itemize]{topsep=0em, itemsep=0.25em, leftmargin=*}
+\newcommand{\sectionline}{\noindent\rule{\linewidth}{0.4pt}\vspace{0.2em}}
+
+\begin{document}
+
+\begin{center}
+    {\bfseries\Huge Dinesh Karajagi} \\
+    \vspace{1.5em}
+
+    \href{mailto:karajagidinesh@gmail.com}{karajagidinesh@gmail.com} \quad $|$ \quad  +91 9880357198 \quad $|$ \quad Karnataka, India \\
+    \href{https://www.linkedin.com/in/dinesh-karajagi-6b9a9b24b}{LinkedIn} \quad $|$ \quad \href{https://github.com/DineshK028}{GitHub} \quad $|$ \quad \quad\href{https://dineshk028.github.io/portfolio-d/}{Portfolio}
+\end{center}
+
+\vspace{1.5em}
+\section*{Education}
+\textbf{KLE Institute of Technology, Hubli} \\
+Bachelor of Engineering in Computer Science and Engineering \hfill 2021 – Present \\
+CGPA: 8.5 / 10
+
+\vspace{0.2em}
+\textbf{Tungal PU College, Vijayapura} \\
+Pre-University Education \hfill Graduated: 2021 \\
+Percentage: 93\%
+
+\sectionline
+
+\section*{Technical Skills}
+\begin{itemize}
+    \item \textbf{Languages:} C, Python,Core Java, JavaScript
+    \item \textbf{Frameworks/Technologies:} React.js, Node.js, Express.js, Flask.
+    \item \textbf{Web Development:} HTML5, CSS3, JavaScript, Tailwind CSS, Responsive Design, Frontend/Backend
+    \item \textbf{Databases:} MySQL, MongoDB
+    \item \textbf{Tools:} Git, GitHub, VS Code, Colab, Jupyter, Postman, Replit
+    \item \textbf{Core Concepts:} DSA, OOP, DBMS, Computer Networks, Operating Systems, Machine Learning
+\end{itemize}
+\sectionline
+
+\section*{Professional Experience}
+\textbf{AIML Intern — Rooman Technologies} \hfill Oct 2023 – Jan 2024
+\begin{itemize}
+    \item Designed scalable ETL pipelines using Python (Pandas, NumPy) and SQL, ensuring 97\%+ accuracy on 16K+ records.
+    \item Trained ML models for classification and regression with 85\%+ precision, reducing manual decision-making time by 30\%.
+    \item Automated data ingestion and transformation workflows, increasing throughput by 20\% and reducing latency by 15\%.
+\end{itemize}
+\sectionline
+
+\section*{Projects}
+\textbf{Rice Plant Leaf Disease Predictor (ML Application)} \hfill 
+\href{https://github.com/DineshK028/Rice-Disease}{\faGithub\ GitHub} \quad
+\begin{itemize}
+    \item Built an AI-powered detection system using VGG16 and XGBoost classifying 8 rice leaf diseases with over 92\% accuracy.
+    \item Processed 5,000+ labeled images and implemented image preprocessing techniques to improve model performance by 15\%.
+    \item Integrated a React.js frontend with Flask backend, enabling predictions under 3 seconds per image.
+\end{itemize}
+
+\textbf{Note App (Full-Stack Application)} \hfill 
+\href{https://github.com/DineshK028/noteapp}{\faGithub\ GitHub} \quad
+\href{https://noteappshripad.vercel.app}{\faExternalLink\ Live}
+\begin{itemize}
+    \item Developed a full-stack note-taking web app with React.js, Node.js, and MongoDB for 100\% CRUD functionality.
+    \item Enabled secure user login and note syncing across sessions; achieved load times under 2s on mobile and desktop.
+    \item Deployed REST APIs with error handling and modular routing, reducing server response time by 30\%.
+\end{itemize}
+
+\textbf{Collab IDE – Real-time Code Editor} \hfill 
+\href{https://github.com/DineshK028/CollabIDE}{\faGithub\ GitHub} \quad
+\href{https://collabide.live}{\faExternalLink\ Live}
+\begin{itemize}
+    \item Developed a live collaborative code editor enabling multi-user editing with sub-second WebSocket sync using Socket.io.
+    \item Added support for real-time backend code execution in 4+ languages using sandboxed environments.
+    \item Designed a responsive UI with React.js and Tailwind CSS and integrated user presence indicators and built-in chat.
+\end{itemize}
+\sectionline
+
+\section*{Certifications}
+\begin{itemize}
+    \item Python Programming 
+    \href{https://drive.google.com/file/d/1xKCF9jqw-ywoIag_u95dTsBdxMvkWJy7/view?usp=drive_link}{\faExternalLink}
+    \item AIML Learner Certification
+    \href{https://www.coursera.or}{\faExternalLink}
+\end{itemize}
+
+\end{document}
