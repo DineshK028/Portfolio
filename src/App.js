@@ -306,7 +306,7 @@ function App() {
                 real-world problems, and delivering intuitive user experiences
                 through innovative technology.{" "}
               </p>
-              <Button href="resume.pdf" target="_blank">
+              <Button href="/dinesh_Resume.pdf" target="_blank">
                 View Resume <FaExternalLinkAlt />
               </Button>
             </AboutContent>
