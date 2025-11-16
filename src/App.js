@@ -1,25 +1,27 @@
-import React from "react";
-import styled from "styled-components";
 import {
-  FaGithub,
-  FaLinkedin,
-  FaEnvelope,
-  FaExternalLinkAlt,
   FaJava,
-  FaCode,
-  FaPython,
-  FaJs,
   FaReact,
-  FaNodeJs,
-  FaHtml5,
-  FaCss3Alt,
-  FaServer,
-  FaBrain,
-  FaBriefcase, // For Full Stack Developer icon
-  FaLightbulb, // For Problem Solver icon
+  FaDocker,
+  FaDatabase,
+  FaBrain
 } from "react-icons/fa";
-import { SiExpress, SiTailwindcss, SiMongodb } from "react-icons/si";
-import Navbar from "./components/Navbar";
+import { SiSpring, SiMongodb, SiMysql, SiEclipseide, SiMaven } from "react-icons/si";
+
+const techStacks = [
+  { name: "Java", icon: <FaJava /> },
+  { name: "JEE", icon: <FaJava /> },
+  { name: "Hibernate", icon: <FaDatabase /> },
+  { name: "Spring", icon: <SiSpring /> },
+  { name: "Spring Boot", icon: <SiSpring /> },
+  { name: "ReactJS", icon: <FaReact /> },
+  { name: "Docker", icon: <FaDocker /> },
+  { name: "Maven", icon: <SiMaven /> },
+  { name: "MySQL", icon: <SiMysql /> },
+  { name: "MongoDB", icon: <SiMongodb /> },
+  { name: "Eclipse", icon: <SiEclipseide /> },
+  { name: "Machine Learning", icon: <FaBrain /> },
+  { name: "CNN", icon: <FaBrain /> },
+];
 
 // Theme colors
 const theme = {
