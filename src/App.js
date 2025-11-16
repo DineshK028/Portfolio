@@ -300,7 +300,7 @@ function App() {
                 </RoleTag>
               </RoleContainer>
               <p>
-                Software Engineer with a strong foundation in full-stack
+                Software Engineer with a strong foundation in JAVA full-stack
                 development and a growing expertise in Machine Learning.
                 Passionate about building scalable applications, solving
                 real-world problems, and delivering intuitive user experiences
@@ -406,9 +406,10 @@ function App() {
                 <h3>Note App</h3>
                 <p>{projectDescription2}</p>
                 <TechStack>
-                  <TechTag>React.js</TechTag>
-                  <TechTag>Node.js</TechTag>
-                  <TechTag>MongoDB</TechTag>
+                  <TechTag>JAVA</TechTag>
+                  <TechTag>JEE</TechTag>
+                  <TechTag>Hibernate</TechTag>
+                  <TechTag>MySQL</TechTag>
                 </TechStack>
                 <ProjectLinks>
                   <ProjectLink
@@ -470,17 +471,17 @@ function App() {
               my best to get back to you!
             </p>
             <SocialLinks>
-              <SocialIcon href="mailto:dineshkarajagi22@gmail.com">
+              <SocialIcon href="mailto:karajagidinesh@gmail.com">
                 <FaEnvelope />
               </SocialIcon>
               <SocialIcon
-                href="https://linkedin.com/in/dinesh-karajagi-a7332924a"
+                href="https://www.linkedin.com/in/dinesh-k-6b9a9b24b/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BorLYsvY6TumwBBRi81N0KQ%3D%3D"
                 target="_blank"
               >
                 <FaLinkedin />
               </SocialIcon>
               <SocialIcon
-                href="https://github.com/DineshKarajagi"
+                href="https://github.com/DineshK028"
                 target="_blank"
               >
                 <FaGithub />
